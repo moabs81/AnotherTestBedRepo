@@ -1,0 +1,961 @@
+{
+    "offices": [{
+            "id": "088",
+            "region": "Orange",
+            "city": "Ahoskie",
+            "primaryPhone": "252-555-1111"
+        },
+        {
+            "id": "209",
+            "region": "Black",
+            "city": "Archdale",
+            "primaryPhone": "336-555-2222"
+        },
+        {
+            "id": "165",
+            "region": "Orange",
+            "city": "Barco",
+            "primaryPhone": "252-555-3333"
+        },
+        {
+            "id": "011",
+            "region": "Green",
+            "city": "Butner",
+            "primaryPhone": "919-555-4444"
+        },
+        {
+            "id": "174",
+            "region": "Green",
+            "city": "Chapel Hill",
+            "primaryPhone": "919-555-5555"
+        },
+        {
+            "id": "119",
+            "region": "Red",
+            "city": "Clemmons",
+            "primaryPhone": "336-555-8888"
+        },
+        {
+            "id": "231",
+            "region": "Black",
+            "city": "Granite Falls",
+            "primaryPhone": "828-555-9999"
+        },
+        {
+            "id": "212",
+            "region": "Red",
+            "city": "King",
+            "primaryPhone": "336-555-6666"
+        },
+        {
+            "id": "039",
+            "region": "Red",
+            "city": "Lexington",
+            "primaryPhone": "704-732-0764"
+        },
+        {
+            "id": "245",
+            "region": "Red",
+            "city": "Swan Quarter",
+            "primaryPhone": "252-555-7777"
+        }
+    ],
+    "officeCards": [{
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        }
+    ],
+    "officeCards100": [{
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        },
+        {
+            "id": "088",
+            "district": "34",
+            "region": "#4e3c38",
+            "name": "Ahoskie",
+            "primaryPhone": "252-555-1111",
+            "manager": "DeShone Kizer"
+        },
+        {
+            "id": "209",
+            "district": "21",
+            "region": "#eaac55",
+            "name": "Archdale",
+            "primaryPhone": "336-555-2222",
+            "manager": "Kevin Hogan"
+        },
+        {
+            "id": "165",
+            "district": "45",
+            "region": "#e14e85",
+            "name": "Barco",
+            "primaryPhone": "252-555-3333",
+            "manager": "Robert Griffin III"
+        },
+        {
+            "id": "011",
+            "district": "29",
+            "region": "#ff512e",
+            "name": "Butner",
+            "primaryPhone": "919-555-4444",
+            "manager": "Josh McCown"
+        },
+        {
+            "id": "174",
+            "district": "07",
+            "region": "#008c74",
+            "name": "Chapel Hill - N Chatham Park",
+            "primaryPhone": "919-555-5555",
+            "manager": "Cody Kessler"
+        },
+        {
+            "id": "119",
+            "district": "44",
+            "region": "#b7cb50",
+            "name": "Clemmons",
+            "primaryPhone": "336-555-8888",
+            "manager": "Johnny Manziel"
+        },
+        {
+            "id": "231",
+            "district": "08",
+            "region": "#016da4",
+            "name": "Granite Falls",
+            "primaryPhone": "828-555-9999",
+            "manager": "Austin Davis"
+        },
+        {
+            "id": "212",
+            "district": "36",
+            "region": "#7d7b7e",
+            "name": "King",
+            "primaryPhone": "336-555-6666",
+            "manager": "Brian Hoyer"
+        },
+        {
+            "id": "039",
+            "district": "44",
+            "region": "#a489aa",
+            "name": "Lexington",
+            "primaryPhone": "336-732-0764",
+            "manager": "Connor Shaw"
+        },
+        {
+            "id": "245",
+            "district": "42",
+            "region": "#edc9bd",
+            "name": "Swan Quarter",
+            "primaryPhone": "252-555-7777",
+            "manager": "Jason Campbell"
+        }
+    ],
+    "users": [{
+            "id": "P12345F",
+            "name": "Pat Verbeek",
+            "workPhone": "919-123-4567"
+        },
+        {
+            "id": "P23456F",
+            "name": "Bob Marley",
+            "workPhone": "910-656-4567"
+        },
+        {
+            "id": "P34567F",
+            "name": "Rosey Spikes",
+            "workPhone": "828-343-1253"
+        }
+    ]
+}
