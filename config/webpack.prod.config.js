@@ -5,10 +5,13 @@ const myConfig = require('./moreConfig');
 
 module.exports = {
     devtool: 'source-map',
-    entry: myConfig.buildPath('src/devEntry/app.js'),
+    entry: {
+        workbench: myConfig.buildPath('workbench/workbench.js'),
+        app: myConfig.buildPath('projects/sampleComponent/components/Switch.js')
+    },
     output: {
-        path: myConfig.buildPath('dist/'),
-        filename: 'devBundle.js'
+        filename: '[name]-[chunkhash:8].js',
+        path: myConfig.buildPath('dist')
     },
     module: {
         rules: [{
@@ -55,7 +58,7 @@ module.exports = {
                         exclude: [/\.js$/, /\.html$/, /\.json$/],
                         loader: require.resolve('file-loader'),
                         options: {
-                            name: 'media/[name]-[hash:6].[ext]'
+                            name: 'media/[hash:16].[ext]'
                         }
                     }
                 ]
@@ -72,7 +75,7 @@ module.exports = {
         }),
         new webpack.optimize.OccurrenceOrderPlugin(),
         new htmlWebpackPlugin({
-            template: myConfig.buildPath('src/devEntry/index.html')
+            template: myConfig.buildPath('workbench/workbench.html')
         }),
         new webpack.ProvidePlugin({
             'window.jQuery': 'jQuery',

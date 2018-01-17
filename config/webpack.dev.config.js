@@ -5,11 +5,13 @@ const myConfig = require('./moreConfig');
 
 module.exports = {
     devtool: 'cheap-eval-source-map',
-    entry: myConfig.buildPath('workbench/workbench.js'),
+    entry: {
+        workbench: myConfig.buildPath('workbench/workbench.js'),
+        app: myConfig.buildPath('projects/sampleComponent/components/Switch.js')
+    },
     output: {
-        filename: 'dist/bundle.js'
-            //path: path.join(__dirname, 'dist'),
-            //filename: 'devBundle.js'
+        filename: '[name]-[hash:6].js',
+        path: path.join(__dirname, 'dist')
     },
     plugins: [
         new htmlWebpackPlugin({

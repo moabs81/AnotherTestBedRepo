@@ -59,7 +59,7 @@ export const BodyContent = ({scrollEvent}) => (
             <img id='backgroundImg' src={backgroundImage}/>
         </div>
         <div className = 'parallax foreground'>
-            <div className='contentContainer' id='contentContainer'>YOUR STUFF GOES HERE!</div>
+            <div className='contentContainer' id='contentContainer'></div>
         </div>
     </div>
 );
