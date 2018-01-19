@@ -5,8 +5,10 @@ import PropTypes from 'prop-types';
 import { Provider, connect } from 'react-redux';
 import { createStore } from 'redux';
 
+import '../styles/switchStyle.less';
+
 const initialState = {
-    onOff: false
+    onOff: 'off'
 };
 
 const setOnOff = onOff => {
@@ -26,15 +28,20 @@ const switchReducer = (state = initialState, action) => {
     };
 };
 
-const store = createStore(switchReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const switchStore = createStore(switchReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
-const SwitchVisualComponent = ({ onOrOff, onOffEvent }) => <label><input type='checkbox' /> hi! </label>
+const SwitchVisualComponent = ({ onOff, onOffEvent }) =>
+        <label id='switchLabel'>
+            <input type='checkbox' defaultValue = {onOff} onChange = {onOffEvent}/> 
+            <div className='switchOn'>Switch Me On!</div>
+            <div className='switchOff'>Switch Me Off!</div>
+        </label>;
 
-const SwitchComponent = () => {
+const SwitchComponent = () => 
     <div className='switchMain'>
         <SwitchContainerComponent />
-    </div>
-};
+    </div>;
+
 
 const mapSwitchStateToProps = state => {
     return {
@@ -43,8 +50,8 @@ const mapSwitchStateToProps = state => {
 };
 const mapSwitchDispatchToProps = dispatch => {
     return {
-        onOffEvent: () => {
-            dispatch(setOnOff());
+        onOffEvent: (e) => {            
+            dispatch(setOnOff(e.target['value'] === 'off'? 'on' : 'off'));
         }
     };
 };
@@ -52,7 +59,7 @@ const mapSwitchDispatchToProps = dispatch => {
 const SwitchContainerComponent = connect(mapSwitchStateToProps, mapSwitchDispatchToProps)(SwitchVisualComponent);
 
 ReactDom.render(
-    <Provider store={store}>
+    <Provider store={switchStore}>
         <SwitchComponent />
     </Provider>,
     document.getElementById('contentContainer')

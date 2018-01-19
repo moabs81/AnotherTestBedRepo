@@ -41,7 +41,7 @@ const scrollPosReducer = function (state = initialState, action) {
 };
 
 //Create Store
-const store = createStore(scrollPosReducer);
+const store = createStore(scrollPosReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 //Presentational Components
 export const TopMenu = ({ position }) => (
